@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistrationForm</title>
+</head>
+<body>
+    <header>
+        <h3>REGISTRATION FORM</h3>
+        <hr>
+    </header>
+    <br>
+    <b>Enter Your Login Details</b>
+    <br><br>
+    <form action ="/action.php">
+        <input type="text" placeholder="Username">
+        <br>
+        <input type="password" placeholder="Password">
+        <br><br>
+        <hr>
+        <b>Select Your Class</b>
+        <br>
+        <input type="radio" value="Class X" name="Class" id="101">Class X
+        <input type="radio" value="Class XI" name="Class" id="101">Class XI
+        <input type="radio" value="Class XII" name="Class" id="101">Class XII
+        <br>
+        <hr>
+        <b>Select Examination Board</b>
+        <br>
+        <input type="radio"value="CBSE"name="board" id="1000">CBSE
+        <input type="radio"value="State Board"name="board" id="1000">State Board
+        <input type="radio"value="NEB"name="board" id="1000">NEB
+        <input type="radio"value="Others"name="board" id="1000">Others
+        <br><br>
+        <hr>
+
+        <b>Select Your City</b>
+        <br>
+        <select name="city" id="100">
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Jaipur">Jaipur</option>
+            <option value="Patna">Patna</option>
+            <option value="Pune">Pune</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Mohali">Mohali</option>
+            <option value="Banaras">Banaras</option>
+            <option value="Others">Others</option>
+            <option value="Outside India">Outside India</option>
+        </select>
+        <br><br>
+        <hr>
+        <b>Contact Number</b>
+        <br>
+        <input type="text"placeholder="Enter Your Number"id="1001">
+        <br><br>
+        <hr>
+        <footer>
+            <b>Feedback</b>
+            <br>
+            <textarea name="feedback"id="1002"placeholder="Enter Your Valuable Feedback"></textarea>
+            <br>
+            <input type="submit"id="1003"placeholder="Submit">
+        </footer>
+    </form>
+
+</body>
+</html>
